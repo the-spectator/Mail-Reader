@@ -1,0 +1,10 @@
+{% extends "reader/layout.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>mAILreader ver beta</h1>
+  <p>This module gets the oauth from azure by this href. <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols-oauth-code" target="_blank">authorization code grant flow</a> and to use that token to make calls to the Outlook APIs.</p>
+  <p>
+    <a class="btn btn-lg btn-primary" href="{{signin_url}}" role="button" id="connect-button">Get Token</a>
+  </p>
+</div>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "reader/layout.html" %}
+{% block content %}
+<h1>Send mail Info</h1>
+<table class="table">
+  {% for message in messages %}
+ 	{{ message}}
+  {% endfor %}
+</table>
+{% endblock %}
