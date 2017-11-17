@@ -1,0 +1,117 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('e4c42998-d755-47be-a9d8-8f2c83c9d28b')/mailFolders('sentitems')/messages(receivedDateTime,subject,from,body)",
+    "value": [
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AAKTwhg8\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n\r\n\r\n\r\n\r\nSir, \r\nI am Akshay Birajdar of Army Institute of Technology. I had participated in PCI summer school\u00a02017 and is likely to be awarded certificate of same on 28 July 2017 but I am unavailable on the date because of my prior commitment.\r\n\r\n\r\nSo, please hand over my certificate to my friend Sankalp Nigam of Army Institute of Technology who also had attended the PCI summer school with me. I will be very grateful of you.\r\n\r\n\r\nAkshay Birajdar",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "3453 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AAKTg_l0AAA=",
+            "receivedDateTime": "2017-07-26T15:02:07Z",
+            "subject": "Unavailability on 28 July 2017 for certificate distribution ceremony for PCI 2017."
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AAIwzeMA\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n\r\n\r\n\r\n\r\nSir,\r\n\u00a0 \u00a0 Seminar Report attached.",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "3353 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AAIwnRffAAA=",
+            "receivedDateTime": "2017-02-27T10:15:09Z",
+            "subject": "Plagiarism report "
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AAHHgz9U\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n3353 AKSHAY BIRAJDAR has shared a\u202fOneDrive for Business\u202ffile with you. To view it, click the link below.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nak.png\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nResult attached\r\n\r\n\r\n\r\n\r\nAkshay Birajdar\r\nTe Comp\u00a0\r\nRoll no:3353",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "3353 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AAHHZvXBAAA=",
+            "receivedDateTime": "2016-09-20T07:37:20Z",
+            "subject": "Psychometric Evaluation "
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AAFvKf5R\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "3256 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AAFgFLOyAAA=",
+            "receivedDateTime": "2016-04-15T19:49:47Z",
+            "subject": "room allotment form"
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AACdpIzF\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "3256 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AACdpATIAAA=",
+            "receivedDateTime": "2015-06-28T09:39:51Z",
+            "subject": "Resume for Internship in Mobiliya"
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AABq4gDG\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "4102 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AABq4b3fAAA=",
+            "receivedDateTime": "2015-04-10T05:11:06Z",
+            "subject": "Hostel accommodation forms"
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAAAvYwO/X4Q7R4GK3/Ghy/s8AABdJk8V\"",
+            "body": {
+                "content": "<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n\r\n\r\n\r\n\r\nConfirmation of Email Id\u200b\r\n\r\nAkshay Birajdar\r\n\r\nFEIT\r\n\r\n4102",
+                "contentType": "html"
+            },
+            "from": {
+                "emailAddress": {
+                    "address": "akshaybirajdar_14309@aitpune.edu.in",
+                    "name": "4102 AKSHAY BIRAJDAR"
+                }
+            },
+            "id": "AAMkADhlZTdlMzM1LTYyOGYtNDk1My1iZTg1LWNlMGFkMzk0MzY0ZABGAAAAAAAJoQimJ6V6RaSzGiiyZ4XJBwAvYwO-X4Q7R4GK3-Ghy-s8AAAAAAEJAAAvYwO-X4Q7R4GK3-Ghy-s8AABdJkUcAAA=",
+            "receivedDateTime": "2015-03-19T14:31:13Z",
+            "subject": "Confirmation of Email Id"
+        }
+    ]
+}
