@@ -25,7 +25,7 @@ SECRET_KEY = 'y-hkh(=!ul*0*^&8%$y@^(a0ssy%y&-p)r6+4v9&%d3exdb^y='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-mail-reader.herokuapp.com']
 
 
 # Application definition
