@@ -38,7 +38,7 @@ def mail(request):
 	if not access_token:
 		return HttpResponseRedirect(reverse('reader:home'))
 	else:
-		messages = get_my_messages(access_token, user_email)
+		messages = get_my_messages(access_token, user_email,'inbox')
 		context = { 'messages': messages['value'] }
 		return render(request, 'reader/mail.html', context)
 		#return HttpResponse(messages)
@@ -59,6 +59,14 @@ def sendmail(request):
 		return render(request, 'reader/sendmail.html', context)
 		
 def outbox(request):
-	return HttpResponseRedirect(reverse('reader:home'))	
+	access_token = get_access_token(request, request.build_absolute_uri(reverse('reader:gettoken')))
+	user_email = request.session['user_email']
+	# If there is no token in the session, redirect to home
+	if not access_token:
+		return HttpResponseRedirect(reverse('reader:home'))
+	else:
+		messages = get_my_messages(access_token, user_email,'sentitems')
+		context = { 'messages': messages['value'] }
+		return render(request, 'reader/outbox.html', context)	
 		
 		

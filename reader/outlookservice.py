@@ -50,8 +50,8 @@ def get_me(access_token):
   else:
     return "{0}: {1}".format(r.status_code, r.text)
 
-def get_my_messages(access_token, user_email):
-  get_messages_url = graph_endpoint.format('/me/mailfolders/sentitems/messages')
+def get_my_messages(access_token, user_email,box):
+  get_messages_url = graph_endpoint.format('/me/mailfolders/'+box+'/messages')
 
   # Use OData query parameters to control the results
   #  - Only first 10 results returned
@@ -73,7 +73,7 @@ def get_my_messages(access_token, user_email):
 
 def send_my_messages(access_token, user_email,message):
   get_messages_url = graph_endpoint.format('/me/microsoft.graph.sendMail')
-  r = make_api_call('POST', 'https://graph.microsoft.com/v1.0/me/microsoft.graph.sendMail', access_token, user_email,payload = message,parameters = None)
+  r = make_api_call('POST', get_messages_url, access_token, user_email,payload = message,parameters = None)
 
   if (r.status_code == requests.codes.ok):
   	nwjson = clean(r.json()) #cleaned json: content
