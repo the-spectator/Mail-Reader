@@ -5,7 +5,7 @@ import time,json
 
 from reader.authhelper import get_signin_url, get_token_from_code, get_access_token
 from reader.outlookservice import get_me,get_my_messages,send_my_messages
-from worker import entery
+from reader.worker import entery
 # Create your views here.
 
 def home(request):
