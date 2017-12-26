@@ -10,9 +10,9 @@ To do
 def entery(messages):
     message = json.loads(json.dumps(messages))
     #message =json.loads(messages)
-    #if(check(message['@odata.context'])):
-    #    return
-    #else:
+    if(check(message['@odata.context'])):
+    	return
+    else:
     con = None
     try:
         con = psycopg2.connect(dbase='d8625tt3dr4d5r', user='xpvirwrpybbjph', password='5b52a9a74f873d954a0084eb33896ad7700168705aee2f36eb1730741eac004a', host='ec2-54-243-43-72.compute-1.amazonaws.com', port="5432")
