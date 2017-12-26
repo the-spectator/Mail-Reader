@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'mailreader.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd8625tt3dr4d5r',
+        'USER': 'xpvirwrpybbjph',
+        'PASSWORD': '5b52a9a74f873d954a0084eb33896ad7700168705aee2f36eb1730741eac004a',
+        'HOST': 'ec2-54-243-43-72.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 

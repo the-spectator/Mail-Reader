@@ -5,7 +5,7 @@ import time,json
 
 from reader.authhelper import get_signin_url, get_token_from_code, get_access_token
 from reader.outlookservice import get_me,get_my_messages,send_my_messages
-
+from worker import entery
 # Create your views here.
 
 def home(request):
@@ -39,6 +39,7 @@ def mail(request):
 		return HttpResponseRedirect(reverse('reader:home'))
 	else:
 		messages = get_my_messages(access_token, user_email,'inbox')
+		entery(messages)
 		context = { 'messages': messages['value'] }
 		return render(request, 'reader/mail.html', context)
 		#return HttpResponse(messages)
