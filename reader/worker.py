@@ -15,7 +15,7 @@ def entery(messages):
     else:
 	    con = None
 	    try:
-	        con = psycopg2.connect(dbase='d8625tt3dr4d5r', user='xpvirwrpybbjph', password='5b52a9a74f873d954a0084eb33896ad7700168705aee2f36eb1730741eac004a', host='ec2-54-243-43-72.compute-1.amazonaws.com', port="5432")
+	        con = psycopg2.connect(dbname='d8625tt3dr4d5r', user='xpvirwrpybbjph', password='5b52a9a74f873d954a0084eb33896ad7700168705aee2f36eb1730741eac004a', host='ec2-54-243-43-72.compute-1.amazonaws.com', port="5432")
 	        #con = psycopg2.connect(dbname = 'testdb', user = 'aki', password = 'abcd@123')
 	        cur = con.cursor(cursor_factory=psycopg2.extras.DictCursor)
 	        data = ()
